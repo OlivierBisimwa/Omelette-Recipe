@@ -1,7 +1,15 @@
 /* Reset Css */
-*{
+/* *{
     min-width: 0;
     font: inherit;
+} */
+@font-face {
+    font-family: "Young Serif";
+    src: url("assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+@font-face {
+    font-family: "Outfit";
+    src: url("assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
 }
 *, ::before, ::after{
     box-sizing: border-box;
@@ -14,10 +22,14 @@ img, video, svg{
 body{
     margin: 0;
     min-height: 100vh;
+    font-family: "Outfit", sans-serif;
 }
-h1, h2, h3, h4, h5, h6{
+.li--padding{
+    padding: 5px;
+}
+/* h1, h2, h3, h4, h5, h6{
     text-wrap: balance;
-}
+} */
 p{
     text-wrap: pretty;
 }
